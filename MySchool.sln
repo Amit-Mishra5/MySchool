@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B955FE2E-3D17-415C-A194-33D1AB49DE98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admission", "Admission", "{F2B9F609-8BA1-429F-ABD3-A74E9BA4463A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admission", "Admission\Admission.csproj", "{82898476-B14B-4254-9A14-02DFD939F1B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82898476-B14B-4254-9A14-02DFD939F1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82898476-B14B-4254-9A14-02DFD939F1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82898476-B14B-4254-9A14-02DFD939F1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82898476-B14B-4254-9A14-02DFD939F1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2B9F609-8BA1-429F-ABD3-A74E9BA4463A} = {B955FE2E-3D17-415C-A194-33D1AB49DE98}
+		{82898476-B14B-4254-9A14-02DFD939F1B5} = {F2B9F609-8BA1-429F-ABD3-A74E9BA4463A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8378DD02-9D89-472C-839C-EECD82BC7047}
+	EndGlobalSection
+EndGlobal
